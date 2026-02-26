@@ -11,7 +11,7 @@ const chalk = require('chalk');
 
 global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
 global.author = 'Rubzyx'
-global.botname = 'Rubzyx bot'
+global.botname = 'BoyKisser'
 global.packname = 'Bot WhatsApp'
 global.listprefix = ['+','!','.']
 
@@ -22,8 +22,8 @@ global.pairing_code = true
 global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
-	anonim: 'https://files.catbox.moe/tnuwbf.jpg',
-	thumbnailUrl: 'https://files.catbox.moe/zlegwd.jpg',
+	anonim: 'https://raw.githubusercontent.com/Ehehekum/elaina/main/a71da4463ddddc2f3611bedb566f1ea8.jpg',
+	thumbnailUrl: 'https://raw.githubusercontent.com/Ehehekum/elaina/main/thumbnail.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
@@ -66,7 +66,7 @@ global.APIs = {
 	naze: 'https://api.naze.biz.id',
 }
 global.APIKeys = {
-	'https://api.naze.biz.id': 'YOUR_API_KEY',
+	'https://api.naze.biz.id': 'nz-24e01d5383',
 }
 
 // Lainnya
